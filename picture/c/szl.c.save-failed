@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    float i,j,y,x;
+    long n;
+    printf("intput n:");
+    scanf("%ld",&n);
+    i=1;
+    do{
+        i=i*10;
+        j=(n/i);
+      }while(j>1);
+    printf("%d",i);
+    return 0;
+}
